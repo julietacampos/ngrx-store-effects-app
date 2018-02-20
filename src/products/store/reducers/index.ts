@@ -15,8 +15,22 @@ export const getProductsState = createFeatureSelector<ProductsState>(
 );
 
 // pizza state
-
 export const getPizzaState = createSelector(
   getProductsState,
   (state: ProductsState) => state.pizzas,
+);
+
+export const getAllPizzas = createSelector(
+  getPizzaState,
+  fromPizzas.getPizzas,
+);
+
+export const getPizzasLoaded = createSelector(
+  getPizzaState,
+  fromPizzas.getPizzasLoaded,
+);
+
+export const getPizzasLoading = createSelector(
+  getPizzaState,
+  fromPizzas.getPizzasLoading,
 );
