@@ -1,6 +1,7 @@
 # Project
 .idea
 .vscode
+.history
 
 # Node
 node_modules
