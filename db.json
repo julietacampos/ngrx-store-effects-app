@@ -58,14 +58,6 @@
           "name": "pepperoni"
         },
         {
-          "id": 9,
-          "name": "pepper"
-        },
-        {
-          "id": 5,
-          "name": "mozzarella"
-        },
-        {
           "id": 11,
           "name": "sweetcorn"
         },
@@ -141,15 +133,11 @@
       "id": 3
     },
     {
-      "name": "Julie's Pizza",
+      "name": "Vic's pizza",
       "toppings": [
         {
-          "id": 5,
-          "name": "mozzarella"
-        },
-        {
-          "id": 10,
-          "name": "pepperoni"
+          "id": 2,
+          "name": "bacon"
         },
         {
           "id": 6,
@@ -166,9 +154,21 @@
         {
           "id": 11,
           "name": "sweetcorn"
+        },
+        {
+          "id": 4,
+          "name": "chili"
+        },
+        {
+          "id": 5,
+          "name": "mozzarella"
+        },
+        {
+          "id": 9,
+          "name": "pepper"
         }
       ],
-      "id": 4
+      "id": 5
     }
   ]
 }
